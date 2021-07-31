@@ -12,7 +12,7 @@ body {
 }
 
 header {
-  height: 50vh;
+  height: 65vh;
   background-color: #00000034;
 }
 
@@ -20,7 +20,7 @@ header video {
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;
-  height: 50%;
+  height: 65%;
   position: absolute;
   opacity: 0.8;
   top: 0;

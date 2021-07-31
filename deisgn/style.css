@@ -36,7 +36,7 @@ header .topnav-container {
 }
 
 header .topnav-container .topnav-container-content {
-  padding: 0 50px 0 50px;
+  padding: 0 20px 0 20px;
   line-height: 80px;
   font-family: 'Quicksand', sans-serif;
 }
@@ -135,6 +135,9 @@ main .intro-content {
 }
 
 @media (min-width: 650px) {
+  header .topnav-container .topnav-container-content {
+    padding: 0 40px 0 40px;
+  }
   header .topnav-container .topnav-container-content .topnav-container-left .mobile {
     display: none;
   }

@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 html {
   scroll-behavior: smooth;
 }
@@ -13,7 +14,7 @@ body {
 
 header {
   height: 65vh;
-  background-color: #00000034;
+  background-color: #00000085;
 }
 
 header video {
@@ -38,7 +39,7 @@ header .topnav-container {
 header .topnav-container .topnav-container-content {
   padding: 0 20px 0 20px;
   line-height: 80px;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'RolexFont-S', sans-serif;
 }
 
 header .topnav-container .topnav-container-content .topnav-container-left {
@@ -49,7 +50,6 @@ header .topnav-container .topnav-container-content .topnav-container-left a {
   padding-left: 8px;
   padding-right: 8px;
   font-size: 1.1rem;
-  font-weight: 600;
   text-decoration: none;
   color: #fff;
 }
@@ -129,7 +129,7 @@ main {
 }
 
 main .intro-content {
-  height: 50vh;
+  height: 35vh;
   max-width: 1280px;
   margin: 0 auto;
 }

@@ -2,7 +2,10 @@
 // font-family: 'Raleway', sans-serif;
 // font-family: 'Roboto', sans-serif;
 // font-family: 'Quicksand', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+// video content
+// https://content.rolex.com/dam/watches/family-pages/day-date/video/classic_watches_day-date_movement_auto_play_0001.mp4
 html {
     scroll-behavior: smooth;
 }
@@ -16,7 +19,7 @@ body {
 
 header {
     height: 65vh;
-    background-color: #00000034;
+    background-color: #00000085;
 
     video {
         object-fit: cover;
@@ -36,11 +39,9 @@ header {
         background-color: transparent;
 
         .topnav-container-content {
-            // max-width: 1280px;
-            // margin: 0 auto;
             padding: 0 20px 0 20px;
             line-height: 80px;
-            font-family: 'Quicksand', sans-serif;
+            font-family: 'RolexFont-S', sans-serif;
 
             .topnav-container-left {
                 float: left;
@@ -49,7 +50,7 @@ header {
                     padding-left: 8px;
                     padding-right: 8px;
                     font-size: 1.1rem;
-                    font-weight: 600;
+                    // font-weight: 600;
                     text-decoration: none;
                     color: #fff;
                 }
@@ -131,7 +132,7 @@ main {
     background-color: #fff;
 
     .intro-content {
-        height: 50vh;
+        height: 35vh;
         max-width: 1280px;
         margin: 0 auto;
 
